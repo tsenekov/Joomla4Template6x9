@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+	<update>
+		<name>MySoftware Template</name>
+		<description>MySoftware Template for Joomla 4</description>
+		<element>mod_avaphp</element>
+		<type>module</type>
+		<version>4.0.1</version>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/tsenekov/Joomla4Template6x9/raw/master/Joomla4Template6x9.zip</downloadurl>
+		</downloads>
+		<maintainer>Joomla</maintainer>
+		<maintainerurl>https://www.mysoftware.ru</maintainerurl>
+		<targetplatform name="joomla" version="4"/>
+		<client>site</client>
+	</update>
+</updates>
