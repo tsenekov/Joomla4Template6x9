@@ -2,4 +2,4 @@
 Template for Joomla4 with Bootstrap 5
 This template has grid with 6 colums and 9rows
 
-<img src=>
+<img align="left" width="*" height="*" src="preview.png">
