@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.0" type="template" method="upgrade">
+	<name>MySoftware Template</name>
+	<creationDate>14 MAR 2022</creationDate>
+	<author>MySoftware</author>
+	<copyright>Copyright © 2022 mysoftware.ru</copyright>
+	<authorEmail>info@mysoftware.ru</authorEmail>
+	<authorUrl>http://www.mysoftware.ru</authorUrl>
+	<version>4.0</version>
+	<description><![CDATA[ 
+		<h1>Основной шаблон для Joomla 4</h1>
+		<p> Матрица <b>9 строк</b> по <b>6 столбцов</b></p>
+		<p> </p>
+		<p>Шаблон предназначен для разработанных сайтов <a href="http://www.mysoftware.ru" target="_blank">MySoftware</a></p>
+		<p>Разрешена доработка на свое усмотрение</p>
+		<p>Поддержка: <a href="mailto:support@mysoftware.ru">support@mysoftware.ru</a></p>
+		<p>Тел: <b>(921) 956-0822</b></p>
+	]]></description>
+	<files>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>index.php</filename>
+		<filename>joomla.asset.json</filename>
+		<filename>offline.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>scss</folder>
+	</files>
+    <positions>
+		<position>header</position>
+		<position>row1col1</position>
+		<position>row1col2</position>
+		<position>row1col3</position>
+		<position>row1col4</position>
+		<position>row1col5</position>
+		<position>row1col6</position>
+                <position>row2col1</position>
+                <position>row2col2</position>
+                <position>row2col3</position>
+                <position>row2col4</position>
+                <position>row2col5</position>
+                <position>row2col6</position>
+                <position>row3col1</position>
+                <position>row3col2</position>
+                <position>row3col3</position>
+                <position>row3col4</position>
+                <position>row3col5</position>
+                <position>row3col6</position>
+                <position>row4col1</position>
+                <position>row4col2</position>
+                <position>row4col3</position>
+                <position>row4col4</position>
+                <position>row4col5</position>
+                <position>row4col6</position>
+                <position>row5col1</position>
+                <position>row5col2</position>
+                <position>row5col3</position>
+                <position>row5col4</position>
+                <position>row5col5</position>
+                <position>row5col6</position>
+                <position>row6col1</position>
+                <position>row6col2</position>
+                <position>row6col3</position>
+                <position>row6col4</position>
+                <position>row6col5</position>
+                <position>row6col6</position>
+                <position>row7col1</position>
+                <position>row7col2</position>
+                <position>row7col3</position>
+                <position>row7col4</position>
+                <position>row7col5</position>
+                <position>row7col6</position>
+                <position>row8col1</position>
+                <position>row8col2</position>
+                <position>row8col3</position>
+                <position>row8col4</position>
+                <position>row8col5</position>
+                <position>row8col6</position>
+                <position>row9col1</position>
+                <position>row9col2</position>
+                <position>row9col3</position>
+                <position>row9col4</position>
+                <position>row9col5</position>
+                <position>row9col6</position>
+		<position>footer</position>
+	        <position>debug</position>
+	</positions>
+	<config>
+		<fields name="params">
+	<fieldset name="basic" label="Настройки">
+	</fieldset>
+
+	<fieldset name="custom" label="Опции">
+		<field name="bodyrow" type="radio" default="5" label="Основной контент / строка" description="" class="btn-group">
+			<option value="1">1</option> 
+			<option value="2">2</option> 
+			<option value="3">3</option> 
+			<option value="4">4</option> 
+			<option value="5">5</option> 
+			<option value="6">6</option> 
+			<option value="7">7</option> 
+			<option value="8">8</option> 
+			<option value="9">9</option> 
+		</field> 
+		<field name="bodycol" type="radio" default="1" label="Основной контент / столбец" description="" class="btn-group">
+			<option value="1">1</option> 
+			<option value="2">2</option> 
+			<option value="3">3</option> 
+			<option value="4">4</option> 
+			<option value="5">5</option> 
+			<option value="6">6</option> 
+		</field> 
+	</fieldset>
+
+	<fieldset name="colors" label="Цвета">
+		<field name="mainbgcolor" type="color" label="Фон страниц / Цвет" description="Фон страниц / Цвет" default=""></field> 
+		<field name="mainbgimage" type="media" label="Фон страниц / Картинка" description="Фон страниц / Картинка" default=""></field> 
+		<field name="mainbgposy" type="radio" default="" label="Фон / выравнивание" description="" class="btn-group">
+			<option value="top">top</option> 
+			<option value="center">center</option> 
+			<option value="bottom">bottom</option> 
+		</field> 
+		<field name="mainbgposx" type="radio" default="" label="Фон / выравнивание" description="" class="btn-group">
+			<option value="left">left</option> 
+			<option value="center">center</option> 
+			<option value="right">right</option> 
+		</field> 
+		<field name="mainbgrepeat" type="radio" default="repeat" label="Фон / повторять" description="" class="btn-group">
+			<option value="no-repeat">no-repeat</option> 
+			<option value="repeat-x">repeat-x</option> 
+			<option value="repeat">repeat</option> 
+			<option value="repeat-y">repeat-y</option> 
+		</field> 
+		<field name="mainbgattachment" type="radio" default="" label="Фон / привязка" description="" class="btn-group">
+			<option value="scroll">scroll</option> 
+			<option value="fixed">fixed</option> 
+		</field> 
+
+		<field name="colortext" type="color" label="Текст (BODY)" description="colortext" default=""></field> 
+		<field name="colorh" type="color" label="Заголовки (H1-H6)" description="colorh" default=""></field> 
+
+		<field name="color1" type="color" label="Основной цвет 1" description="color1" default=""></field>
+		<field name="color2" type="color" label="Основной цвет 2" description="color2" default=""></field>
+		<field name="color3" type="color" label="Основной цвет 3" description="color3" default=""></field>
+		<field name="color4" type="color" label="Основной цвет 4" description="color4" default=""></field>
+		<field name="color5" type="color" label="Основной цвет 5" description="color5" default=""></field>
+		<field name="color6" type="color" label="Основной цвет 6" description="color6" default=""></field>
+
+	</fieldset>
+
+	<fieldset name="styles" label="Стили">
+		<field name="useuserstyle" type="radio" default="1" label="Таблица стилей вкл." description="Enable this CSS" class="btn-group btn-group-yesno">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="userstyle" type="textarea" rows="30" columns="120" label="Таблица стилей" description="" default="" class="span8" /> 
+	</fieldset>
+
+	<!-- Начало страниц настроек -->
+
+	<fieldset name="row1" label="ROW1"> 
+		<field name="row1kind" type="radio" default="1" label="Вид строки" description="" class="btn-group">
+			<option value="0">Отключить</option> 
+			<option value="1">Bootstrap fixed</option> 
+			<option value="2">Bootstrap 100% width</option> 
+			<option value="3">Ext file</option> 
+		</field> 
+		<field name="row1style" type="text" label="Строка 1 / Стиль" default="" class="input-xxlarge"></field> 
+
+		<field name="row1col1style" type="text" label="Колонка 1 / Стиль" default=""></field> 
+	
+		<field name="row1col2style" type="text" label="Колонка 2 / Стиль" default=""></field> 
+
+		<field name="row1col3style" type="text" label="Колонка 3 / Стиль" default=""></field> 
+
+		<field name="row1col4style" type="text" label="Колонка 4 / Стиль" default=""></field> 
+
+		<field name="row1col5style" type="text" label="Колонка 5 / Стиль" default=""></field> 
+
+		<field name="row1col6style" type="text" label="Колонка 6 / Стиль" default=""></field> 
+	</fieldset>
+	<fieldset name="row2" label="ROW2"> 
+		<field name="row2kind" type="radio" default="1" label="Вид строки" description="" class="btn-group">
+			<option value="0">Отключить</option> 
+			<option value="1">Bootstrap fixed</option> 
+			<option value="2">Bootstrap 100% width</option> 
+			<option value="3">Ext file</option> 
+		</field> 
+		<field name="row2style" type="text" label="Строка 1 / Стиль" default="" class="input-xxlarge"></field> 
+
+		<field name="row2col1style" type="text" label="Колонка 1 / Стиль" default=""></field> 
+	
+		<field name="row2col2style" type="text" label="Колонка 2 / Стиль" default=""></field> 
+
+		<field name="row2col3style" type="text" label="Колонка 3 / Стиль" default=""></field> 
+
+		<field name="row2col4style" type="text" label="Колонка 4 / Стиль" default=""></field> 
+
+		<field name="row2col5style" type="text" label="Колонка 5 / Стиль" default=""></field> 
+
+		<field name="row2col6style" type="text" label="Колонка 6 / Стиль" default=""></field> 
+	</fieldset>
+	<fieldset name="row3" label="ROW3"> 
+		<field name="row3kind" type="radio" default="1" label="Вид строки" description="" class="btn-group">
+			<option value="0">Отключить</option> 
+			<option value="1">Bootstrap fixed</option> 
+			<option value="2">Bootstrap 100% width</option> 
+			<option value="3">Ext file</option> 
+		</field> 
+		<field name="row3style" type="text" label="Строка 1 / Стиль" default="" class="input-xxlarge"></field> 
+
+		<field name="row3col1style" type="text" label="Колонка 1 / Стиль" default=""></field> 
+	
+		<field name="row3col2style" type="text" label="Колонка 2 / Стиль" default=""></field> 
+
+		<field name="row3col3style" type="text" label="Колонка 3 / Стиль" default=""></field> 
+
+		<field name="row3col4style" type="text" label="Колонка 4 / Стиль" default=""></field> 
+
+		<field name="row3col5style" type="text" label="Колонка 5 / Стиль" default=""></field> 
+
+		<field name="row3col6style" type="text" label="Колонка 6 / Стиль" default=""></field> 
+	</fieldset>
+	<fieldset name="row4" label="ROW4"> 
+		<field name="row4kind" type="radio" default="1" label="Вид строки" description="" class="btn-group">
+			<option value="0">Отключить</option> 
+			<option value="1">Bootstrap fixed</option> 
+			<option value="2">Bootstrap 100% width</option> 
+			<option value="3">Ext file</option> 
+		</field> 
+		<field name="row4style" type="text" label="Строка 1 / Стиль" default="" class="input-xxlarge"></field> 
+
+		<field name="row4col1style" type="text" label="Колонка 1 / Стиль" default=""></field> 
+	
+		<field name="row4col2style" type="text" label="Колонка 2 / Стиль" default=""></field> 
+
+		<field name="row4col3style" type="text" label="Колонка 3 / Стиль" default=""></field> 
+
+		<field name="row4col4style" type="text" label="Колонка 4 / Стиль" default=""></field> 
+
+		<field name="row4col5style" type="text" label="Колонка 5 / Стиль" default=""></field> 
+
+		<field name="row4col6style" type="text" label="Колонка 6 / Стиль" default=""></field> 
+	</fieldset>
+	<fieldset name="row5" label="ROW5"> 
+		<field name="row5kind" type="radio" default="1" label="Вид строки" description="" class="btn-group">
+			<option value="0">Отключить</option> 
+			<option value="1">Bootstrap fixed</option> 
+			<option value="2">Bootstrap 100% width</option> 
+			<option value="3">Ext file</option> 
+		</field> 
+		<field name="row5style" type="text" label="Строка 1 / Стиль" default="" class="input-xxlarge"></field> 
+
+		<field name="row5col1style" type="text" label="Колонка 1 / Стиль" default=""></field> 
+	
+		<field name="row5col2style" type="text" label="Колонка 2 / Стиль" default=""></field> 
+
+		<field name="row5col3style" type="text" label="Колонка 3 / Стиль" default=""></field> 
+
+		<field name="row5col4style" type="text" label="Колонка 4 / Стиль" default=""></field> 
+
+		<field name="row5col5style" type="text" label="Колонка 5 / Стиль" default=""></field> 
+
+		<field name="row5col6style" type="text" label="Колонка 6 / Стиль" default=""></field> 
+	</fieldset>                     
+	<fieldset name="row6" label="ROW6"> 
+		<field name="row6kind" type="radio" default="1" label="Вид строки" description="" class="btn-group">
+			<option value="0">Отключить</option> 
+			<option value="1">Bootstrap fixed</option> 
+			<option value="2">Bootstrap 100% width</option> 
+			<option value="3">Ext file</option> 
+		</field> 
+		<field name="row6style" type="text" label="Строка 1 / Стиль" default="" class="input-xxlarge"></field> 
+
+		<field name="row6col1style" type="text" label="Колонка 1 / Стиль" default=""></field> 
+	
+		<field name="row6col2style" type="text" label="Колонка 2 / Стиль" default=""></field> 
+
+		<field name="row6col3style" type="text" label="Колонка 3 / Стиль" default=""></field> 
+
+		<field name="row6col4style" type="text" label="Колонка 4 / Стиль" default=""></field> 
+
+		<field name="row6col5style" type="text" label="Колонка 5 / Стиль" default=""></field> 
+
+		<field name="row6col6style" type="text" label="Колонка 6 / Стиль" default=""></field> 
+	</fieldset>
+	<fieldset name="row7" label="ROW7"> 
+		<field name="row7kind" type="radio" default="1" label="Вид строки" description="" class="btn-group">
+			<option value="0">Отключить</option> 
+			<option value="1">Bootstrap fixed</option> 
+			<option value="2">Bootstrap 100% width</option> 
+			<option value="3">Ext file</option> 
+		</field> 
+		<field name="row7style" type="text" label="Строка 1 / Стиль" default="" class="input-xxlarge"></field> 
+
+		<field name="row7col1style" type="text" label="Колонка 1 / Стиль" default=""></field> 
+	
+		<field name="row7col2style" type="text" label="Колонка 2 / Стиль" default=""></field> 
+
+		<field name="row7col3style" type="text" label="Колонка 3 / Стиль" default=""></field> 
+
+		<field name="row7col4style" type="text" label="Колонка 4 / Стиль" default=""></field> 
+
+		<field name="row7col5style" type="text" label="Колонка 5 / Стиль" default=""></field> 
+
+		<field name="row7col6style" type="text" label="Колонка 6 / Стиль" default=""></field> 
+	</fieldset>
+	<fieldset name="row8" label="ROW8"> 
+		<field name="row8kind" type="radio" default="1" label="Вид строки" description="" class="btn-group">
+			<option value="0">Отключить</option> 
+			<option value="1">Bootstrap fixed</option> 
+			<option value="2">Bootstrap 100% width</option> 
+			<option value="3">Ext file</option> 
+		</field> 
+		<field name="row8style" type="text" label="Строка 1 / Стиль" default="" class="input-xxlarge"></field> 
+
+		<field name="row8col1style" type="text" label="Колонка 1 / Стиль" default=""></field> 
+	
+		<field name="row8col2style" type="text" label="Колонка 2 / Стиль" default=""></field> 
+
+		<field name="row8col3style" type="text" label="Колонка 3 / Стиль" default=""></field> 
+
+		<field name="row8col4style" type="text" label="Колонка 4 / Стиль" default=""></field> 
+
+		<field name="row8col5style" type="text" label="Колонка 5 / Стиль" default=""></field> 
+
+		<field name="row8col6style" type="text" label="Колонка 6 / Стиль" default=""></field> 
+	</fieldset>
+	<fieldset name="row9" label="ROW9"> 
+		<field name="row9kind" type="radio" default="1" label="Вид строки" description="" class="btn-group">
+			<option value="0">Отключить</option> 
+			<option value="1">Bootstrap fixed</option> 
+			<option value="2">Bootstrap 100% width</option> 
+			<option value="3">Ext file</option> 
+		</field> 
+		<field name="row9style" type="text" label="Строка 1 / Стиль" default="" class="input-xxlarge"></field> 
+
+		<field name="row9col1style" type="text" label="Колонка 1 / Стиль" default=""></field> 
+	
+		<field name="row9col2style" type="text" label="Колонка 2 / Стиль" default=""></field> 
+
+		<field name="row9col3style" type="text" label="Колонка 3 / Стиль" default=""></field> 
+
+		<field name="row9col4style" type="text" label="Колонка 4 / Стиль" default=""></field> 
+
+		<field name="row9col5style" type="text" label="Колонка 5 / Стиль" default=""></field> 
+
+		<field name="row9col6style" type="text" label="Колонка 6 / Стиль" default=""></field> 
+	</fieldset>
+
+	<!-- Конец страниц настроек -->
+		</fields>
+	</config>
+</extension>
