@@ -357,4 +357,7 @@
 	<!-- Конец страниц настроек -->
 		</fields>
 	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="MySoftware Template">https://raw.githubusercontent.com/tsenekov/Joomla4Template6x9/main/update.xml</server>
+	</updateservers>
 </extension>
